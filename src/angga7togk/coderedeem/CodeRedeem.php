@@ -2,7 +2,7 @@
 
 namespace angga7togk\coderedeem;
 
-use angga7togk\coderedeem\libs\FormAPI\CustomForm;
+use Vecnavium\FormsUI\CustomForm;
 use angga7togk\coderedeem\updater\ConfigUpdate;
 use pocketmine\command\Command;
 use pocketmine\command\CommandSender;
