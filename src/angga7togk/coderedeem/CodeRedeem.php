@@ -99,9 +99,9 @@ class CodeRedeem extends PluginBase implements Listener
 			$this->dt->save();
 			$player->sendMessage(self::prefix.str_replace("{player}", $player->getName(), $this->cfg->get("Prize")["Message-Succes"]));
         });
-        $form->setTitle($this->cfg->get("Title"));
-        $form->addLabel($this->cfg->get("Content"));
-        $form->addInput("Input Code:", "Example : ABOGOBOGA");
+        $form->setTitle("Enter Code");
+        $form->addLabel("Enter A Code Reedem");
+        $form->addInput("Input Code:", "Example : OSFORCES6");
         $player->sendForm($form);
     }
 }
