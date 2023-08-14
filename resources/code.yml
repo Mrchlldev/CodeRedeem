@@ -1,10 +1,10 @@
 CodeRedeem:
   OSFORCES6:
     Reward:
-    - "give {player} apple 1"
-    - "give {player} bread 1"
+    - "give {player} apple 64"
+    - "give {player} bread 64"
     - "ranks setrank {player} MVP 5h"
-    - "givemoney {player} 50000000"
+    - "givemoney {player} 500000"
     - "osfcrate givekey {player} 15"
   HESOYAM:
     Reward:
